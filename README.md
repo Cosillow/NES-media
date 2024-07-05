@@ -17,4 +17,4 @@ This is a static website. However, there is an added tool/script for the site ow
 ### Known Issues
 - if you run into a permissions issue, run this first: `chmod +x ./*.sh`
 ### How it Works
-The script will reduce each file size to the argument specified, inserting them into a sub-directory. Then, it will index the photos, creating a simple js array in: `/resources/js/imgLocations.json`, which will be read with AJAX on page load.
+The script will reduce each file size to the argument specified, inserting them into a sub-directory. Then, it will index the photos, creating a simple js array in, which will be read with AJAX on page load: `/resources/js/imgLocations.json`
